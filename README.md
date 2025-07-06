@@ -51,3 +51,22 @@ The updated Evo2 directory is added to the Modal container with (as mentioned un
 
 - **NumPy, Pandas, FastAPI, Matplotlib** – backend utility libraries
 
+## 📦 Setup & Usage
+
+1. Clone and install dependencies (from their respective directories)
+
+2. Modify the Evo2 tokenizer (already included if using this repo)
+Check that vortex/model/tokenizer.py has the updated tokenize method
+
+3. Run locally (Modal / Backend):
+```bash
+cd backend/
+modal init 
+modal run main.py
+``` 
+
+4. Start the Next.js frontend:
+```bash
+cd frontend/
+npm run dev
+```
