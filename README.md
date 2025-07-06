@@ -27,7 +27,7 @@ This project consists of:
 
 ## 🛠️ Modifications
 
-After cloning the original **Evo2** Repositiry, a small change was made in the tokenizer for running in the **Modal** Container (It is recommended to use `H100 GPUs`):
+After cloning the original **Evo2** Repository, a small change was made in the tokenizer for running in the **Modal** Container (It is recommended to use `H100 GPUs`):
 
 ```python
 # File: vortex/model/tokenizer.py (under CharLevelTokenizer)
@@ -64,9 +64,8 @@ The updated Evo2 directory is added to the Modal container with (as mentioned un
    npm install
    ```
 
-2. Modify the Evo2 tokenizer (already included if using this repo)
-   
-  Check that `vortex/model/tokenizer.py` has the updated tokenize method (it may not be needed)
+2. Modify the Evo2 tokenizer (already included if using this repo) 
+      Check that `vortex/model/tokenizer.py` has the updated tokenize method (it may not be needed)
 
 3. Run locally (Modal / Backend):
 ```bash
