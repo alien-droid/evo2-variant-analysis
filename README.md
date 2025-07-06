@@ -17,7 +17,7 @@ This project consists of:
 ## 🧪 Functionality
 
 - View gene details and reference sequences.
-- Introduce a single nucleotide variation in the sequence.
+- Introduce a single-nucleotide variation in the sequence.
 - Predict the impact of that mutation using the Evo2 LLM.
 - Classify the result as:
   - `Likely Benign`
@@ -41,11 +41,12 @@ The updated Evo2 directory is added to the Modal container with (as mentioned un
 .add_local_dir("evo2", remote_path="/evo2", ignore=["*.venv", "*.ipynb"], copy=True)
 ```
 
-🧱 Tech Stack
-Next.js – frontend UI for sequence interaction
+## 🧱 Tech Stack
 
-Python (with Modal) – model backend for Evo2 inference
+- Next.js – frontend UI for sequence interaction
 
-Evo2 LLM – large language model for protein/nucleotide analysis [<img src="https://img.icons8.com/?size=25&id=467&format=png&color=000000">](https://github.com/ArcInstitute/evo2)
+--Python (with Modal) – model backend for Evo2 inference
 
-NumPy, Pandas, FastAPI – backend utility libraries
+--Evo2 LLM – large language model for protein/nucleotide analysis [<img src="https://img.icons8.com/?size=25&id=467&format=png&color=000000">](https://github.com/ArcInstitute/evo2)
+
+--NumPy, Pandas, FastAPI – backend utility libraries
