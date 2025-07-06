@@ -43,7 +43,7 @@ The updated Evo2 directory is added to the Modal container with (as mentioned un
 
 ## 🧱 Tech Stack
 
-- **Next.js with `ShadCN`** – frontend UI for sequence interaction
+- **Next.js with [`ShadCN`](https://ui.shadcn.com/)** – frontend UI for sequence interaction
 
 - **Python (with Modal)** – model backend for Evo2 inference
 
