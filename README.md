@@ -67,14 +67,14 @@ The updated Evo2 directory is added to the Modal container with (as mentioned un
 2. Modify the Evo2 tokenizer (already included if using this repo) 
 
 3. Run locally (Modal / Backend):
-  ```bash
-  cd backend/
-  modal init 
-  modal run main.py
-  ``` 
+    ```bash
+    cd backend/
+    modal init 
+    modal run main.py
+    ``` 
 
 4. Start the Next.js frontend:
-  ```bash
-  cd frontend/
-  npm run dev
-  ```
+    ```bash
+    cd frontend/
+    npm run dev
+    ```
