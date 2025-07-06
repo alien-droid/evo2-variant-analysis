@@ -54,9 +54,19 @@ The updated Evo2 directory is added to the Modal container with (as mentioned un
 ## 📦 Setup & Usage
 
 1. Clone and install dependencies (from their respective directories)
+   ```bash
+   cd backend/
+   pip install -r requirements.txt
+   ```
+   
+   ```bash
+   cd frontend/
+   npm install
+   ```
 
 2. Modify the Evo2 tokenizer (already included if using this repo)
-Check that vortex/model/tokenizer.py has the updated tokenize method
+   
+Check that `vortex/model/tokenizer.py` has the updated tokenize method (it may not be needed)
 
 3. Run locally (Modal / Backend):
 ```bash
