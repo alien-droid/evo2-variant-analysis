@@ -46,6 +46,6 @@ Next.js – frontend UI for sequence interaction
 
 Python (with Modal) – model backend for Evo2 inference
 
-Evo2 LLM – large language model for protein/nucleotide analysis [<img src="https://img.icons8.com/?size=20&id=62856&format=png&color=000000">](https://github.com/ArcInstitute/evo2)
+Evo2 LLM – large language model for protein/nucleotide analysis [<img src="https://img.icons8.com/?size=25&id=62856&format=png&color=fff">](https://github.com/ArcInstitute/evo2)
 
 NumPy, Pandas, FastAPI – backend utility libraries
