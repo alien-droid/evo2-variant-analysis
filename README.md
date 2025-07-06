@@ -43,13 +43,15 @@ The updated Evo2 directory is added to the Modal container with (as mentioned un
 
 ## 🧱 Tech Stack
 
-- **Next.js** – frontend UI for sequence interaction
+- **Next.js with ShadCN** – frontend UI for sequence interaction
 
 - **Python (with Modal)** – model backend for Evo2 inference
 
 - **Evo2 LLM** – large language model for protein/nucleotide analysis [<img src="https://img.icons8.com/?size=25&id=467&format=png&color=ffffff">](https://github.com/ArcInstitute/evo2)
 
 - **NumPy, Pandas, FastAPI, Matplotlib** – backend utility libraries
+
+- **Scikit-learn** - for evaluation metrics
 
 ## 📦 Setup & Usage
 
